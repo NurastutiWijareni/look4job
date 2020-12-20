@@ -1,0 +1,57 @@
+.jumbotron {
+    background-image: url(../img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin-top: -120px;
+}
+
+.main-cont {
+    margin-top: 250px;
+}
+
+.main-cont h1 {
+    font-size: 70px;
+}
+
+.desc {
+    font-size: 16px;
+}
+
+.cont {
+    border: 1px solid black;
+    padding: 12px;
+    box-shadow: grey 5px 5px 5px;
+    margin: 8px;
+}
+
+.company {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link {
+    font-size: 16px;
+}
+
+.bg-transparent {
+    background: transparent !important;
+    transition: 0.75s ease;
+}
+
+.bg-transparent.scrolled {
+    background: #4481eb !important;
+}
+
+.navbar2 {
+     background: #4481eb !important;
+}
+
+.desc {
+    height: 500px;
+}
+
+.container {
+    min-height: 100%;
+    position: relative;
+}
