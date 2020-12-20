@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 
-<div class="container" style="margin-top: 70px;">
+<div class="container" style="margin-top: 130px; height: 800px;">
     <div class="row shadow">
         <div class="col">
             <div class="px-4 py-4">

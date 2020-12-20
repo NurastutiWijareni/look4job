@@ -24,7 +24,7 @@
 
     <?= $this->renderSection('content'); ?>
 
-    <footer class="page-footer font-small blue pt-4 bg-dark text-light mt-5">
+    <footer class="page-footer font-small blue pt-4 bg-dark text-light mt-5 sticky-bottom">
 
         <!-- Footer Links -->
         <div class="container-fluid text-center text-md-left">

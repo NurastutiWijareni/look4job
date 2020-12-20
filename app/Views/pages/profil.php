@@ -2,7 +2,7 @@
 
 <?= $this->section('content'); ?>
 
-<div class="container rounded" style="margin-top: 70px;">
+<div class="container rounded" style="margin-top: 70px; margin-bottom: 150px;">
     <div id="test" class="row rounded shadow">
     </div>
     <div class="row shadow mr-auto">

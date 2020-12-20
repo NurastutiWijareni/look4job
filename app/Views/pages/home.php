@@ -35,19 +35,22 @@
 
 <!-- result jobs -->
 <div class="container">
+
+    <h4 class="mb-3">Job Tersedia : </h4>
+
     <div class="row">
         <div class="col">
             <table class="table table-hover">
                 <tbody>
                     <?php foreach ($job as $j) : ?>
                         <?php
-                                $i = 0;
-                                foreach ($perusahaan as $p) {
-                                    if (array_search(strval($j['id_perusahaan']), $p)) {
-                                        $index = $i;
-                                    }
-                                    $i++;
-                                }
+                        $i = 0;
+                        foreach ($perusahaan as $p) {
+                            if (array_search(strval($j['id_perusahaan']), $p)) {
+                                $index = $i;
+                            }
+                            $i++;
+                        }
                         ?>
                         <tr style="border: 1px solid #99a;">
                             <td>
@@ -70,7 +73,7 @@
     </div>
     <div class="row">
         <div class="col">
-            <?php if(!isset($_POST['keyword'])) : ?>
+            <?php if (!isset($_POST['keyword'])) : ?>
                 <?= $pager->links('jobs', 'my_pagination'); ?>
             <?php endif; ?>
         </div>
